@@ -1,0 +1,334 @@
+*{
+    margin: 0rem;	 
+    /* background-color: black; */
+    color: white;
+    font-family: sans-serif;
+}
+ html, body {
+     height:100vh; 
+}
+
+#root{
+    /* height: 100; */
+} 
+
+
+.box{
+    height: 100vh;
+   
+    
+    /* background-color: black; */
+}
+
+#nav{
+    background-color: #272C34;
+    
+}
+#body{
+    background-color: #1E1E1E;
+}
+
+
+#milva{
+    margin-top: 1rem;
+    padding: 0rem;
+    margin-bottom: 0.50rem;
+    /* background-color: blue; */
+    display: flex;
+
+}
+#milva img{
+    height: 3rem;
+}
+#milva p{
+   font-size: 0.7rem;
+   padding-top: 0.10rem;
+   padding-left: 1rem ;
+   /* padding-top: 0.10rem; */
+   align-items: center;
+   /* font-family: Arial, Helvetica, sans-serif; */
+   font-weight: 400;
+   letter-spacing: 0.1071rem;
+   line-height: 1.43rem;
+
+    /* font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em; */
+    color: white;
+}
+
+
+#home{
+    
+    padding-left: 6rem;
+    margin-bottom: 0.50rem;
+    display:flex;
+    justify-content:flex-start;
+    
+}
+
+#home i{
+    /* padding-top: 0.20rem; */
+    padding-top: 0.30rem;
+    font-size: 1rem;
+}
+
+#home h6{
+    padding-left: 3.5rem;
+    font-size: 0.850rem;
+    /* font-family:"Roboto; */
+    font-weight: 500;
+    line-height: 1.43rem;
+    letter-spacing: 0.1071rem;
+    line-height: 1.43rem;
+    
+    
+}
+
+
+li{
+    list-style: none;
+}
+
+#fav{
+
+    left: 10rem;
+    padding-left: 6rem;
+    margin-bottom: 0.50rem;
+    display: flex;
+    justify-content:flex-start;
+    
+ }
+ #fav i{
+    padding-top: 0.20rem;
+    padding-top: 0.30rem;
+    font-size: 1rem;
+}
+
+#fav h6{
+    padding-left: 3rem;
+    font-size: 0.850rem;
+    /* font-family:"Roboto; */
+    font-weight: 500;
+    line-height: 1.43rem;
+    letter-spacing: 0.1071rem;
+    line-height: 1.43rem;
+    
+
+} 
+#categ li{
+    padding: 0rem;
+    margin-bottom: 0.50rem;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+#linetwo{
+        position: fixed;
+    top: 90vh;
+}
+#nav-bottom{
+    
+    display: flex;
+    position: fixed;
+    top: 90vh;
+}
+#linetwo{
+    padding-top: 0px;
+}
+#input-categ{
+padding-bottom: 0px;
+     font:lighter;
+     font-size: small;
+     
+     width: 44vh;
+     border: 0;
+     height: 1.1876em;
+     margin: 0;
+     display:block;
+     padding: px 20px;
+ 
+     min-width: 0;
+     background:none ;
+
+     box-sizing: border-box;
+     border: none;
+     border-bottom: 1px solid gray;
+     animation-name: mui-auto-fill-cancel;
+     letter-spacing: inherit;
+     animation-duration: 10ms;
+     -webkit-tap-highlight-color: transparent;
+     
+     outline: 0px;
+}    
+/*       
+       width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+
+
+*/
+
+#delete{
+    padding: 1rem;
+}
+
+#todolar{
+padding-top: 3rem;
+display: flex;
+justify-content: center;
+}
+#todos-list{
+    margin-top: 2rem;
+    margin-left: 1.7rem;
+    justify-content: center;
+    
+}
+
+#todos-list li {
+    margin: 0.4rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    padding-right: 1rem;
+    background-color:#ffffff1f;
+    height: 5.5rem;
+    width: 60rem;
+    padding-top:0.9rem ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content:center;
+}
+/* <i class="fas fa-align-justify text-primary "></i>
+<h6 class="text-primary"> ali</h6>
+<i id="delete-main"class="fas fa-trash text-primary"></i> */
+#todos-list li h6{
+ bottom: 1rem; 
+}
+#todos-list li delete-main{
+    padding: 1rem;
+}
+
+
+#bottom-main-element{
+    
+    
+    display: flex;
+    position: fixed;
+    top: 90vh;
+}
+#linetwo{
+    padding-top: 0px;
+}
+#input-categ-second{
+padding-bottom: 0px;
+     font:lighter;
+     font-size: small;
+     
+     width: 100%;
+     border: 0;
+     height: 1.1876em;
+     margin: 0;
+     display:block;
+     padding: px 20px;
+ 
+     min-width: 0;
+     background:none ;
+
+     box-sizing: border-box;
+     border: none;
+     border-bottom: 1px solid gray;
+     animation-name: mui-auto-fill-cancel;
+     letter-spacing: inherit;
+     animation-duration: 10ms;
+     -webkit-tap-highlight-color: transparent;
+     
+     outline: 0px;
+}    
+
+#button {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border: 2px solid #e7e7e700;
+    width: 20    rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content:space-between;
+}
+#button:hover {background-color: #e7e7e713; width: 20rem;}
+
+#del-button{
+
+background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border: 2px solid #e7e7e700;
+
+}
+
+#button i{
+    padding-top: 0.20rem;
+    font-size: 1.4rem;
+    display: flex;
+
+    font-size:medium;  
+    justify-content: space-between;
+}
+
+#button #categ-menu{
+display: flex;
+justify-content: space-between;
+position: absolute;
+margin-top: 2.5vh;
+top:10 vh ;
+}
+
+#button .categ-del{
+display: flex;
+justify-content: right;
+color: red;
+position: absolute;
+left: 50vh;
+top:10vh
+
+/* top: 0vh; */
+}
+
+#button h6{
+    
+    position:absolute;
+    left: 15vh;
+    /* bottom: 1px; */
+
+    padding-left: 2rem;
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 0.850rem;
+    font-family:sans-serif;
+    font-weight: 100;
+    line-height: 1.43rem;
+    letter-spacing: 0.1971rem;
+    line-height: 1.43rem;
+    padding-top: 0.14rem;
+    /* justify-content: space-between; */
+    align-content: center; 
+    margin-top: 2vh;
+} 
+/* #button #delete{
+    position: fixed;
+    left: 100px;
+} */
+
+/* #button.active:active {
+    color: red;
+  }
+  #button.focus:focus {
+    color: red;
+  }
+  :target {
+    color: red;
+  } */

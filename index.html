@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>  
+    <div id="root" class="container-fluid">
+        <div class="row ">    
+            <nav id="nav" class="box col-3">
+                
+                <div id="nav-element">
+                    
+                    
+                    <div id="nav-up" class="container-fluid">
+                        <div id="milva" class="container-fluid">
+                            <img src="./images/1.ico" class=" rounded-circle " alt="">
+                            <p>MilvaSoft Yazılım
+                                İnfo@Milvasoft.com
+                                </p>
+                                
+                                </div>
+                        <div id="home">
+                                    <i class="fas fa-home text-danger"></i>
+                                    <h6>home</h6>
+                                    
+                                    
+                                    </div>
+                                    <div id="fav" class="container-fluid">
+                                        
+                                        <i class="far fa-heart text-success"></i>
+                                        <h6>Tüm Todolar</h6>
+                                    </div>
+                                    
+                                    <div id="line">
+                                            <hr style="   border: 0.2px solid white;">
+                                            
+                                            
+                                     </div>
+                                        <div id="categ">
+                                                <li id="id1"> 
+                                                <button id="button" onclick="TodoFilter.filterc(1)" <i="" class="fas fa-align-justify text-primary ">
+                                                <h6>Ktün </h6>
+                                                </button>
+                                                <button id="del-button"> 
+                                                <i id="delete" class="fas fa-trash"></i>
+                                                </button>
+                                            
+                                        </li><li id="id2"> 
+                                                <button id="button" onclick="TodoFilter.filterc(2)" <i class="fas fa-align-justify text-primary ">
+                                                <h6>Milva </h6>
+                                                </button>
+                                                <button id="del-button"> 
+                                                <i id="delete" class="fas fa-trash"></i>
+                                                </button>
+                                            
+                                        </li><li id="id3"> 
+                                                <button id="button" onclick="TodoFilter.filterc(3)" <i="" class="fas fa-align-justify text-primary ">
+                                                <h6>Ev</h6>
+                                                </button>
+                                                <button id="del-button"> 
+                                                <i id="delete" class="fas fa-trash"></i>
+                                                </button>
+                                            
+                                        </li>
+                                        </div>
+                                        
+                                        
+                                        
+                                    </div>
+                                    
+                                    <div id="nav-bottom">
+                                            <input  id="input-categ" type="text"value="New category" >
+                                            <i id="add" class="fas fa-plus-circle"></i>
+                                            <a href="#">
+                                                
+                                            </a>
+            </div>
+
+
+        </div>
+
+        </nav>
+
+
+
+
+
+
+
+    <div id="body" class="box col-9">
+        <div id="main-element">
+            <div id="top-main-element"class="container">
+                <h2 id="todolar">Todolar</h2>
+                <ul id="todos-list">
+        <li class="this-todos" id="1">
+        <i id="menu-main" class="fas fa-align-justify text-primary"></i>
+        <h5>Matematik ödevi</h5>
+        <i id="delete-main" class="fas fa-trash "></i>
+
+    </li> <li class="this-todos" id="1">
+        <i id="menu-main" class="fas fa-align-justify text-primary"></i>
+        <h5>fizik ödevi</h5>
+        <i id="delete-main" class="fas fa-trash "></i>
+
+    </li> <li class="this-todos" id="2">
+        <i id="menu-main" class="fas fa-align-justify text-primary"></i>
+        <h5>JavaScript</h5>
+        <i id="delete-main" class="fas fa-trash "></i>
+
+    </li> <li class="this-todos" id="2">
+        <i id="menu-main" class="fas fa-align-justify text-primary"></i>
+        <h5>Css</h5>
+        <i id="delete-main" class="fas fa-trash "></i>
+
+    </li> <li class="this-todos" id="3">
+        <i id="menu-main" class="fas fa-align-justify text-primary"></i>
+        <h5>Kitap oku</h5>
+        <i id="delete-main" class="fas fa-trash "></i>
+
+    </li> <li class="this-todos" id="3">
+        <i id="menu-main" class="fas fa-align-justify text-primary"></i>
+        <h5>Arabayı yıka</h5>
+        <i id="delete-main" class="fas fa-trash "></i>
+
+    </li>
+                </ul>
+
+            </div>
+            <div id="bottom-main-element" class="container">
+                <input  id="input-categ-second" type="text"value="New category" >
+                                            <i id="add-body" class="fas fa-plus-circle"></i>
+                                            <a href="#">
+                                                
+                                            </a>
+            </div>
+        </div>
+    </div> 
+ </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="./categoryes/CategoriName.js"></script>
+<script src="./categoryes/CategoryDelete.js"></script>
+<script src="./categoryes/CategoryIDArr.js"></script>
+<script src="./categoryes/CategoryIDCounter.js"></script>
+<script src="./categoryes/CategoryUI.js"></script>
+<script src="./todo/todoDelete.js"></script>
+<script src="./todo/todoFilter.js"></script>
+<script src="./todo/todoID.js"></script>
+<script src="./todo/todoStorage.js"></script>
+<script src="./todo/todoUI.js"></script>
+<script src="./categoryes/filter.js"></script>
+<script src="./deneme.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
